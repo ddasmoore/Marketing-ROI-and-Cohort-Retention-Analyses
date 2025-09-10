@@ -24,9 +24,18 @@ The goal of this project was to :
 
 ## Executive-summary-of-insights
 
-1) The marketing efforts overall achieved a high return on investment, with a total ROI of 400.8%. This indicates the company was effectively turning marketing spend into valuable subscriptions.
-2) Within Display campaigns, Facebook and Pinterest ads performed better than Instagram. Within Search campaigns, Remarketing C1 had the highest impressions and >80% subscription per sign up conversion. Search C2 Branding had the next highest impression and also greater than 80% subscription per sign up conversion.
-3) Cohorts from early in the year (Jan-Apr) had first-month retention in the 60-67% range, while recent cohorts (May-Dec) are consistently higher, with rates above 79% after one month.
+1. 2024 marketing campaigns successfully generated a 400.8% return on investment (ROI). The total marketing spend of $2.87 million resulted in $11.49 million in revenue, along with 85,813 new sign-ups and 65,955 new subscriptions. Campaign spending peaked in March and June, with a corresponding peak in sign-ups and subscriptions during June. 
+
+2. Search campaigns had a higher sign-up per click rate compared to display campaigns. However, this trend reversed for subscriptions per sign-up, where display campaigns converted users at a higher rate than search campaigns.
+
+3. Top Performers:
+
+    - Display: Instagram, and Pinterest campaigns drove strong results. Notably, a specific campaign on Facebook and a few on Instagram and Pinterest were particularly successful.
+
+    - Search: All search campaigns performed well, with specific campaigns for branding, generic, and remarketing driving the highest volume of sign-ups and subscriptions.
+
+4. Cohorts who signed up early in the year (Jan-Apr) had first-month retention in the 60-67% range, while later cohorts (May-Dec) were consistently higher, with rates above 79% after one month.
+
 
 <img width="1678" height="1068" alt="image" src="https://github.com/user-attachments/assets/38692052-3b43-4b19-91a8-b91b5dae5d95" />
 
@@ -71,22 +80,32 @@ SQL(SNOWFLAKE) and Tableau were used for data analysis and visualization
    The retention rate is the percentage of users that have an active subscription n months since the sign-up.
 
 ## Results
-1. Overall ROI of the campaigns was 400.8%, with a 76.9% subscriptions per signup conversion. As  expected, costs for display campaigns ($728,455) were lower than cost for search campaigns ($2138075). Subscription to sign up rate was higher for display campaign (84.6%) compared to search campaigns (73.5%)
-2. Within Display campaigns, all 3 Facebook campaigns had 78-87% subscriptions per signup conversion and between $43-$67 cost per subscription. These ads also had some of the highest impressions within display ads. All 3 Pinterest campaigns also had between 83%-87% subscriptions per signup conversion, with Pinterest C1 campaign
-   having one of the highest impression count at 4M+. Instagram campaigns had the lowest impressions but comparable cost as Facebook and Pinterest. Instagram C1 performed better than C2 and C3, which would be good candidates for streamlining 
-4. Among Search campaigns, Search C2 Branding and Search C1 remarketing had the highest impressions and over 80% subscriptions per signup conversion. Both generic search campaigns had 1M+ impressions but 37%-79% subscriptions per signup conversion, making them less competitive than the rest of the search campaigns.
-5. There is a strong and positive trend of increasing retention rates over the year. Cohorts from early in the year (Jan-Apr) had first-month retention in the 60-67% range, while recent cohorts (May-Dec) are consistently higher, with rates above 79% after one month. This difference is driven by high retention rates for recent cohorts for both Search and Display campaigns. However, retention rates for Display campaigns were better for early cohorts compared to Search campaigns. 
-6. The most recent user groups are retaining at the highest rates seen on the dashboard. The December 2024 cohort shows a first-month retention of 87.1%, and the August 2024 cohort is at 86.0%. This indicates recent changes to the product or marketing have been highly effective.
+
+1. The marketing initiatives delivered significant returns. The total investment of $2,866,530 generated a gross revenue of $11,488,181, leading to a strong 400.8% ROI. These efforts resulted in 85,813 new sign-ups and 65,955 new subscriptions. While campaign expenditure peaked in March and June, the volume of new sign-ups and subscriptions was highest in June.
+
+2. The overall average cost per sign-up was $33.40, while the average cost per subscription was $43.50. Across all campaigns, the sign-up per click rate was 5.9%, and the conversion rate from sign-up to subscription was an impressive 76.9%.
+
+3. Search campaigns were more effective at driving initial sign-ups per click. However, display campaigns proved to be more efficient at converting those sign-ups into paying subscribers.
+
+4. Diplay campaign performance:  Instagram had the highest sign-up per click rate, followed by Pinterest and then Facebook. Subscription rates were consistently high across all major display channels, with Instagram, Pinterest, and Facebook all converting at approximately 86%. Facebook campaigns incurred higher costs than those on Instagram or Pinterest.
+
+5. Search campaign performance: Branding-focused campaigns were the most effective in driving sign-ups, followed by remarketing and generic campaigns. The conversion rate from sign-up to subscription was highest for remarketing campaigns, followed by branding and generic. Branding campaigns were the most expensive, with a total cost of $1,000,079, while generic and remarketing campaigns cost $555,701 and $582,295, respectively.
+
+6. The most successful campaigns in terms of sign-ups and subscriptions were a Facebook campaign (c1), an Instagram campaign (c1), and two Pinterest campaigns (c1 and c2). All search campaigns performed strongly, with specific campaigns for branding (c1), generic (c1), and remarketing (c1) proving to be exceptionally effective.
+   
+7. There was a strong and positive trend of increasing retention rates over the year. Cohorts from early in the year (Jan-Apr) had first-month retention in the 60-67% range, while recent cohorts (May-Dec) are consistently higher, with rates above 79% after one month. This difference is driven by high retention rates for recent cohorts for both Search and Display campaigns. However, retention rates for Display campaigns were better for early cohorts compared to Search campaigns. 
+   
+
 
 
 ## Recommendations 
 1. Reallocate budget to top performing campaigns: 
-    - Facebook, Instagram, C1 Instagram within Dislay
-    - Search C2 Branding and Search C1 remarketing within Search
+    - Facebook c1, Instagram c1 and Pinterest c1 and c2 within Dislay
+    - Branding (c1), Generic (c1), and Remarketing (c1) within Search
 2. For Branding campaigns that are costly, breakdown conversions by age group, gender, location, and subscription type to unpack if some branding appeals to specific user segments.
 3. Identify and Replicate Success: Conduct a deep dive to determine what specific changes were implemented around May 2024 that caused the significant jump in retention rates. These successful strategies should be documented and applied to all future marketing and product initiatives to sustain the positive trend.
-4. Leverage User Feedback from Top Cohorts: Gather feedback from the most successful cohorts (e.g., August and December 2024) to understand why they are so engaged. This could provide valuable insights for product improvements and content strategy to further increase long-term retention.
-   Similarly, leverage user feedback to unpack why there was a difference in retention during Jan-April between Search and Display. 
+4. Leverage User Feedback from Top Cohorts: Gather feedback from the most successful cohorts to understand why they are so engaged. This could provide valuable insights for product improvements and content strategy to further increase long-term retention.
+  
 
 
 
