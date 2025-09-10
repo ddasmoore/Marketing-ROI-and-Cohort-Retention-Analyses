@@ -85,7 +85,7 @@ SQL(SNOWFLAKE) and Tableau were used for data analysis and visualization
 
 2. The overall average cost per sign-up was $33.40, while the average cost per subscription was $43.50. Across all campaigns, the sign-up per click rate was 5.9%, and the conversion rate from sign-up to subscription was an impressive 76.9%.
 
-3. Search campaigns were more effective at driving initial sign-ups per click. However, display campaigns proved to be more efficient at converting those sign-ups into paying subscribers.
+3. Search campaigns were more effective at driving initial sign-ups per click. However, display campaigns proved to be more efficient at converting those sign-ups into paying subscribers. Search campaign cost 2.84X more than Display campaigns overall. 
 
 4. Diplay campaign performance:  Instagram had the highest sign-up per click rate, followed by Pinterest and then Facebook. Subscription rates were consistently high across all major display channels, with Instagram, Pinterest, and Facebook all converting at approximately 86%. Facebook campaigns incurred higher costs than those on Instagram or Pinterest.
 
