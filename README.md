@@ -18,7 +18,7 @@ Users then have the option to sign up and also to subscribe to monthly and yearl
 
 The goal of this project was to :
 1) Calculate marketing campaign return of invesment (ROI) in terms of how effectively the campaigns led to subscriptions. 
-2) Identify high and low performing campaigns
+2) Identify high and low performing campaigns.
 3) Calculate retention rate for each cohort of users across campaigns.
 
 
@@ -37,7 +37,8 @@ The goal of this project was to :
 4. Cohorts who signed up early in the year (Jan-Apr) had first-month retention in the 60-67% range, while later cohorts (May-Dec) were consistently higher, with rates above 79% after one month.
 
 
-<img width="1678" height="1068" alt="image" src="https://github.com/user-attachments/assets/38692052-3b43-4b19-91a8-b91b5dae5d95" />
+<img width="1678" height="1068" alt="image" src="https://github.com/user-attachments/assets/38692052-3b43-4b19-91a8-b91b5dae5d95" /> 
+
 
 <img width="1692" height="1089" alt="image" src="https://github.com/user-attachments/assets/498acae3-c7a5-4455-ab7c-fa7f673c495e" />
 
@@ -58,7 +59,7 @@ There were 3 tables: `USERS`, `CAMPAIGNS` and `SUBSCRIPTIONS`.
 
 
 ## Tools-and-libraries
-SQL(SNOWFLAKE) and Tableau were used for data analysis and visualization
+SQL(SNOWFLAKE) and Tableau were used for data analysis and visualization.
 
 ## Data-analysis
 1. From the raw data shared above, the following metrics were aggregated. MRR refers to monthly recurring revenue. 
@@ -75,7 +76,7 @@ SQL(SNOWFLAKE) and Tableau were used for data analysis and visualization
     yearly_subscriptions,
     total_subscriptions
 
-2. The aggregated data above was used to create an interactive dashboard visualizing marketing ROI, marketing funnel, and impresessions, clicks, costs and subscroptions across channels
+2. The aggregated data above was used to create an interactive dashboard visualizing marketing ROI, marketing funnel, and impresessions, clicks, costs and subscroptions across channels.
 3. The aggregated data above was also used to create an interactive retention cohort dashboard where the retention rate of each acquired cohort (so each group of users that signed up in the given month).
    The retention rate is the percentage of users that have an active subscription n months since the sign-up.
 
@@ -85,11 +86,11 @@ SQL(SNOWFLAKE) and Tableau were used for data analysis and visualization
 
 2. The overall average cost per sign-up was $33.40, while the average cost per subscription was $43.50. Across all campaigns, the sign-up per click rate was 5.9%, and the conversion rate from sign-up to subscription was an impressive 76.9%.
 
-3. Search campaigns were more effective at driving initial sign-ups per click. However, display campaigns proved to be more efficient at converting those sign-ups into paying subscribers. Search campaign cost 2.84X more than Display campaigns overall. 
+3. Search campaigns were more effective at driving initial sign-ups per click. However, display campaigns proved to be more efficient at converting those sign-ups into paying subscribers.
 
 4. Diplay campaign performance:  Instagram had the highest sign-up per click rate, followed by Pinterest and then Facebook. Subscription rates were consistently high across all major display channels, with Instagram, Pinterest, and Facebook all converting at approximately 86%. Facebook campaigns incurred higher costs than those on Instagram or Pinterest.
 
-5. Search campaign performance: Branding-focused campaigns were the most effective in driving sign-ups, followed by remarketing and generic campaigns. The conversion rate from sign-up to subscription was highest for remarketing campaigns, followed by branding and generic. Branding campaigns were the most expensive, with a total cost of $1,000,079, while generic and remarketing campaigns cost $555,701 and $582,295, respectively.
+5. Search campaign performance: Branding-focused campaigns were the most effective in driving sign-ups, followed by remarketing and generic campaigns. The conversion rate from sign-up to subscription was highest for remarketing campaigns, followed by branding and generic. Cost per subscription was higest for Remarketing ($59.8), followed by Generic ($48.6) and Branding ($43.8).
 
 6. The most successful campaigns in terms of sign-ups and subscriptions were a Facebook campaign (c1), an Instagram campaign (c1), and two Pinterest campaigns (c1 and c2). All search campaigns performed strongly, with specific campaigns for branding (c1), generic (c1), and remarketing (c1) proving to be exceptionally effective.
    
@@ -100,9 +101,9 @@ SQL(SNOWFLAKE) and Tableau were used for data analysis and visualization
 
 ## Recommendations 
 1. Reallocate budget to top performing campaigns: 
-    - Facebook c1, Instagram c1 and Pinterest c1 and c2 within Dislay
+    - Facebook c1, Instagram c1 and Pinterest c1 and c2 within Display
     - Branding (c1), Generic (c1), and Remarketing (c1) within Search
-2. For Branding campaigns that are costly, breakdown conversions by age group, gender, location, and subscription type to unpack if some branding appeals to specific user segments.
+2. For campaigns where cost per subscription or sign up are costly, breakdown conversions by age group, gender, location, and subscription type to unpack if some branding appeals to specific user segments.
 3. Identify and Replicate Success: Conduct a deep dive to determine what specific changes were implemented around May 2024 that caused the significant jump in retention rates. These successful strategies should be documented and applied to all future marketing and product initiatives to sustain the positive trend.
 4. Leverage User Feedback from Top Cohorts: Gather feedback from the most successful cohorts to understand why they are so engaged. This could provide valuable insights for product improvements and content strategy to further increase long-term retention.
   
